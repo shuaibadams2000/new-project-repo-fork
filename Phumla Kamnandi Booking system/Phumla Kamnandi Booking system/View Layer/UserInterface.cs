@@ -33,6 +33,7 @@ namespace Phumla_Kamnandi_Booking_system.View_Layer
             {
                 listPanel[--index].BringToFront();
             }
+            MessageBox.Show("This is a test");
         }
 
         private void NextButton_Click(object sender, EventArgs e)
